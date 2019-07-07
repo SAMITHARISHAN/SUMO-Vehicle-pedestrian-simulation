@@ -1,0 +1,40 @@
+<routes>
+
+<vType accel="1.0" decel="5.0" id="Car" length="2.0" maxSpeed="2.00" sigma="0.0"/>
+
+<vType accel="1.0" decel="5.0" id="Bus" length="12.0" maxSpeed="2.00" sigma="0.0"/>
+
+
+<route id="route0" edges="1to2 2to3 "/>
+
+<vehicle depart="10" id="veh0" route="route0" type="Bus"/>
+
+
+<route id="route1" edges="1to2 2to3 "/>
+
+<vehicle depart="10" id="veh1" route="route1" type="Car"/>
+
+<route id="route2" edges="1to2 2to3 "/>
+
+<vehicle depart="10" id="veh2" route="route2" type="Car"/>
+
+<route id="route3" edges="3to2 2to1 "/>
+
+<vehicle depart="10" id="veh3" route="route3" type="Bus"/>
+
+<!-- 
+<person id="person0" depart="0.00" arrival="50">
+        <ride from="1to2" to="2to3" lines="1"/>
+        <walk edges="1to2 2to3" speed="10.00"/>
+    </person> -->
+
+<!-- <personinfo id="person0" depart="0.00">
+       <walk depart="0.00" arrival="47.00" arrivalPos="55.00"/>
+       <ride waitingTime="74.00" vehicle="veh0" depart="21.00" arrival="140.00" arrivalPos="92.00"/>
+       <stop duration="20.00" arrival="160.00" arrivalPos="45.00" actType="singing"/>
+   </personinfo> -->
+   
+
+
+
+</routes>

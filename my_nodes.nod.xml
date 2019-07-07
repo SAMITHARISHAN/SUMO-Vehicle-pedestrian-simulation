@@ -1,0 +1,6 @@
+<nodes>
+<node id="n1" x = "-300" y="0" type="priority"/>
+<node id="n2" x = "0" y="0" type="traffic_light"/>
+<node id="n3" x = "300" y="0" type="traffic_light"/>
+<crossing node="n2" edges="1to2 2to3" priority="true"/>
+</nodes>
