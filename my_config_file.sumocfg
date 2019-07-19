@@ -1,8 +1,8 @@
 <configuration>
 
 <input>
-<net-file value="my_net3.net.xml"/>
-<route-files value="my_route.rou.xml"/>
+<net-file value="my_net.net.xml"/>
+<route-files value="my_route2.rou.xml"/>
 </input>
 <time>
 <begin value="0"/>

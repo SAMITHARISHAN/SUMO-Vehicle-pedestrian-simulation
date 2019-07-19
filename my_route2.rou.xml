@@ -5,24 +5,27 @@
 <vType accel="1.0" decel="5.0" id="Bus" length="12.0" maxSpeed="2.00" sigma="0.0"/>
 
 
-<route id="route0" edges="1to2"/>
+<route id="route0" edges="WC CE"/>
 
 <vehicle depart="10" id="veh0" route="route0" type="Bus"/>
 
 
-<route id="route1" edges="1to2"/>
+<route id="route1" edges="WC CE"/>
 
 <vehicle depart="10" id="veh1" route="route1" type="Car"/>
 
-<route id="route2" edges="1to2"/>
+<route id="route2" edges="WC CE"/>
 
 <vehicle depart="10" id="veh2" route="route2" type="Car"/>
 
     
-<route id="route3" edges="3to2"/>
+<route id="route3" edges="EC CW"/>
 
 <vehicle depart="10" id="veh3" route="route3" type="Bus"/>
 
+
+    <flow id="EW" begin="0" end="3600" probability="0.1" from="EC" to="CW"/>
+    <flow id="WE" begin="0" end="3600" probability="0.1" from="WC" to="CE"/>
 
 <!-- 
 <person id="person0" depart="0.00" arrival="50">
